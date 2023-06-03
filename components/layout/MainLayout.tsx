@@ -13,7 +13,11 @@ export const MainLayout: FC<IMainLayout> = ({ title, desc, children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
         <meta name="description" content={desc} />
-        <meta name="keywords" content="content" />
+        <meta
+          name="keywords"
+          content="it,portfolio,k0d1kk,kodik,kodikk,frontend,fullstack,backend,developer,frontenddeveloper,fullstackdeveloper,backenddeveloper,ukraine
+"
+        />
       </Head>
       <Main>
         <Container>{children}</Container>
