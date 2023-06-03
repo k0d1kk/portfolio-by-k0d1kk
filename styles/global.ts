@@ -8,9 +8,9 @@ const montserrat = Montserrat({
 
 export const theme = {
   colors: {
-    primary: '#6B0DE3',
-    secondary: '#827A8B',
-    outlined: '#7F52FF',
+    primary: '#7510F7',
+    secondary: '##59DFB3',
+    outlined: '##FCFAFF',
     black: '#000000',
     white: '#ffffff',
   },
