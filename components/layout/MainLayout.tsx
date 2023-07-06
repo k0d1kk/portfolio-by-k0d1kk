@@ -4,7 +4,6 @@ import Head from 'next/head';
 
 import { IMainLayout } from './types';
 import { Main } from './MainLayoutStyled';
-import { Container } from '@/styles/global';
 
 export const MainLayout: FC<IMainLayout> = ({ title, desc, children }) => {
   return (
@@ -19,9 +18,7 @@ export const MainLayout: FC<IMainLayout> = ({ title, desc, children }) => {
 "
         />
       </Head>
-      <Main>
-        <Container>{children}</Container>
-      </Main>
+      <Main>{children}</Main>
     </>
   );
 };
