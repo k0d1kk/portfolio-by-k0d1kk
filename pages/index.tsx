@@ -1,10 +1,12 @@
+import { AboutMe } from 'components/AboutMe';
 import { Header } from 'components/Header';
 import { MainLayout } from 'components/layout/MainLayout';
 
 const HomePage = () => {
   return (
-    <MainLayout title="Developer k0d1kk" desc="Portfolio of June FullStack web-developer">
+    <MainLayout title="k0d1kk || FrontEnd" desc="Portfolio of FrontEnd web-developer">
       <Header />
+      <AboutMe />
     </MainLayout>
   );
 };

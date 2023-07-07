@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const MobileMenuSection = styled.div`
+export const MobileMenuSection = styled.section`
   width: 100%;
   height: 100%;
   background: #1a0b2e;
