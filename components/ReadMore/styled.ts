@@ -27,6 +27,10 @@ export const ReadMoreClose = styled.div`
   position: relative;
   width: auto;
   height: auto;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const ReadMoreLineClose = styled.div<{ second?: boolean }>`
