@@ -15,7 +15,6 @@ import {
   ReadMoreTextBlock,
   ReadMoreWrapper,
 } from 'components/ReadMore/styled';
-import Image from 'next/image';
 
 export const AboutMe = () => {
   const [readMore, visibleReadMore] = useState(false);
@@ -51,7 +50,7 @@ export const AboutMe = () => {
       <Container>
         <AboutMeWrapper>
           <AboutMeAvatar>
-            <Image src="images/avatar1.png" alt="" />
+            <img src="images/avatar1.png" alt="" />
             <AboutMeAvatarArrow src="images/aboutmearrow.png" alt="" />
             <AboutMeAvatarHello>
               Hello! I am <span>k0d1kk</span>
