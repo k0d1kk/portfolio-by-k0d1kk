@@ -1,30 +1,31 @@
 import { styled, createGlobalStyle } from 'styled-components';
 
-import { Montserrat } from 'next/font/google';
+import { Preahvihear } from 'next/font/google';
 
-const montserrat = Montserrat({
-  subsets: ['cyrillic', 'cyrillic-ext', 'latin'],
+const poppins = Preahvihear({
+  weight: '400',
+  subsets: ['latin'],
 });
 
 export const theme = {
   colors: {
-    primary: '#6B0DE3',
-    secondary: '#827A8B',
-    outlined: '#7F52FF',
     black: '#000000',
     white: '#ffffff',
   },
 
   fonts: {
-    primary: 'var(--montserrat-font), sans-serif',
+    primary: 'var(--poppins-font), sans-serif',
   },
 
   responsive: {
     mobile: '@media (min-width: 320px)',
+    mobileL: '@media (min-width: 425px)',
     tablet: '@media (min-width: 768px)',
     laptop: '@media (min-width: 1024px)',
-    desktop: '@media (min-width: 1201px)',
-    extra: '@media (min-width: 1601px)',
+    desktop: '@media (min-width: 1200px)',
+    laptopL: '@media (min-width: 1440px)',
+    extra: '@media (min-width: 1600px)',
+    desktopL: '@media (min-wdith: 1920px)',
   },
 };
 
@@ -35,7 +36,7 @@ export const Container = styled.div`
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --montserrat-font: ${montserrat.style.fontFamily};
+    --poppins-font: ${poppins.style.fontFamily};
   }
 
   *,
@@ -56,7 +57,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-size: 14px;
     line-height: 1.4;
-    background-color:black;
+    background-color: #11071F;
   }
 
   h1,
