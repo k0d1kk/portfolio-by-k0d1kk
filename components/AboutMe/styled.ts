@@ -76,6 +76,7 @@ export const AboutMeButton = styled.div`
     background-color: white;
     transform: scale(1);
     transition: 700ms;
+    cursor: pointer;
     & p {
       color: #7127ba;
     }
