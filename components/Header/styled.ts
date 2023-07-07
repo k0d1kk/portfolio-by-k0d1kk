@@ -7,6 +7,7 @@ export const HeaderSection = styled.section`
   padding-bottom: 20px;
   background: #1a0b2e;
   animation: header-pulse-purple 2s infinite;
+  margin-bottom: 130px;
 
   @keyframes header-pulse-purple {
     0% {
